@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#76ADD0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150px"
+        android:layout_marginBottom="150px"
+        android:gravity="center"
+        android:text="🐾 Pet Battle"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="Choose Which Battle you want to see!" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="165dp"
+            android:layout_height="79dp"
+            android:text="Dog vs Dog"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="165dp"
+            android:layout_height="79dp"
+            android:text="Cat vs Cat"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="165dp"
+            android:layout_height="79dp"
+            android:text="Dog vs Cat" />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
